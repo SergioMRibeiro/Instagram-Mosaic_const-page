@@ -29,8 +29,7 @@
     "node": "14.20.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "dev": "set HTTPS=true&&set SSL_CRT_FILE=localhost.pem&&set SSL_KEY_FILE=localhost-key.pem&&react-scripts start",
+    "start": "set HTTPS=true&&set SSL_CRT_FILE=localhost.pem&&set SSL_KEY_FILE=localhost-key.pem&&react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "test": "jest",
